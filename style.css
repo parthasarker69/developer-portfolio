@@ -55,3 +55,36 @@ h1 {
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.colored-border-1 {
+    width: 46%;
+    margin: 4%;
+    border-left: 5px solid red;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px;
+
+}
+
+.colored-border-2 {
+    width: 46%;
+    margin: 4%;
+    border-left: 5px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+    padding: 10px;
+    box-shadow: 10px 10px 20px;
+
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+footer p {
+    text-align: center;
+}
